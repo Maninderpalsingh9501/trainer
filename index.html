@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio: Maninderpal Singh</title>
+  <meta name="description" content="Maninderpal Singh - Software developer, AI expert, LLM tuning and deployment, freelancer.">
+  <meta name="theme-color" content="#111111">
+
+  <!-- Fonts: preconnect + single non-blocking-ish request with display=swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap">
+
+  <!-- Start fetching the hero image immediately -->
+  <link rel="preload" as="image" href="./stock.webp" fetchpriority="high">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Scripts: deferred so they never block rendering. Order is preserved. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Maninderpal <span>Singh</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Projects</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#lectures">Lectures</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" type="button" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <button class="scroll-up-btn" type="button" aria-label="Scroll to top"><i class="fas fa-angle-up"></i></button>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Maninderpal Singh</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="classbox">
+                    <a href="#contact">Get trained from me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./temp.webp" alt="Maninderpal Singh" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Maninder and I'm a <span class="typing-2"></span></div>
+                    <p>I am a passionate and results-driven full-stack developer with expertise in building AI-powered applications and automation systems. I have worked on industrial projects for companies like Mahindra and Intellipaat, developing solutions in employee management, LMS, and real-time data monitoring. My skills include Python, Node.js, Microservices, JavaScript, Machine Learning, LLMs, Firebase, Docker, and AWS . I enjoy solving real-world problems through smart, scalable, and efficient tech solutions. Alongside development, I have teaching experience and have organized and delivered workshops and guest lectures at universities, helping students learn practical AI and web technologies.</p>
+                    <a href="#contact">Connect with me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+        </div>
+        <div class="container">
+            <div class="box">
+                <span id="first"></span>
+                <div class="content">
+                    <h2>AI Expert</h2>
+                    <p>I have hands-on experience in developing AI solutions, including LLM-based chatbots, anomaly detection systems, and student behavior analysis models. My work spans across industries integrating AI with real-time data.</p>
+                </div>
+            </div>
+            <div class="box">
+                <span id="second"></span>
+                <div class="content">
+                    <h2>Development</h2>
+                    <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.</p>
+                </div>
+            </div>
+            <div class="box">
+                <span id="third"></span>
+                <div class="content">
+                    <h2>Data Analyst</h2>
+                    <p>I specialize in data analysis using Python and machine learning to extract actionable insights, detect patterns, and support intelligent decision-making.</p>
+                </div>
+            </div>
+            <div class="box">
+                <span id="fourth"></span>
+                <div class="content">
+                    <h2>Cloud Deployment</h2>
+                    <p>I have experience in deploying Websites and data-driven applications on cloud platforms using Docker, AWS, and Firebase for scalable and real-time performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills &amp; experiences.</div>
+                    <p>
+I began my journey in early 2021 as a Robotics Software Developer, where I focused on integrating AI with hardware systems for automation. Later, I joined <b>Senworx(Netmax)</b> as an Automation Developer, where I worked on Web Development, AI Development, and real-time data systems. <br><br>In mid-2023, I started <b>"Theta Academy" </b> in Chandigarh, contributing to Domain Based AI Education and started courses like "Data science for Commerce", "AI for Mechanical Engineering" and so on.I successfully built company from the ground up, ran for two years, and then left to start my next big project<br><br>
+Later I worked on a project "EKYAM.ai" which was a World's First Agentic AI based Inventory MAnagement system which collect data from all other sources and convert to single governed layer.<br><br>
+Across my roles, I have built projects involving Web Development, LLM-based chatbots, Cloud Systems and Database designing. I specialize in Python, Microservices, node.js, Embedded programming,ML,DL ,Agentic AI, Web Scraping, DevOPS, and use n8n,GHL,make.com for low-code workflow automation. I’ve worked with clients like Mahindra, Intellipaat, Style-Nook, Orion protocol and Outbox delivering scalable, real-time, and intelligent solutions.
+                    </p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info"><span>Python</span><span>95%</span></div>
+                        <div class="line" style="--w:95%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>Django/Flask</span><span>95%</span></div>
+                        <div class="line" style="--w:95%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>Node.js</span><span>85%</span></div>
+                        <div class="line" style="--w:85%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>Machine Learning and Deep Learning</span><span>95%</span></div>
+                        <div class="line" style="--w:95%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>Large Language Models</span><span>85%</span></div>
+                        <div class="line" style="--w:85%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>React js</span><span>60%</span></div>
+                        <div class="line" style="--w:60%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>Workflow Automation</span><span>90%</span></div>
+                        <div class="line" style="--w:90%"></div>
+                    </div>
+             
+                    <div class="bars">
+                        <div class="info"><span>Embedded Programming/IOT</span><span>85%</span></div>
+                        <div class="line" style="--w:85%"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>DevOPS</span><span>85%</span></div>
+                        <div class="line" style="--w:85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel" id="carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="./crunch.jfif" alt="Crunch fitness" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">Crunch Fitness- End to End LEad to Booking platform</div>
+                        <p>Develop scalable GoHighLevel CRM pipeline for Crunch Fitness, integrating META via webhooks to capture and store prospects in tagged databases, boosting lead ingestion efficiency by 85%. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./flow.png" alt="Work management system" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">FlowLu- A Work Management system</div>
+                        <p>Architected enterprise-grade Flowlu CRM leveraging FastAPI microservices and Django monolithic core. and Ractjs for frontend </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./ekyam.jpg" alt="Ekyam" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">Ekyam.ai- Agentic AI based Inventory analytics platform</div>
+                        <p>onnects every inventory data source into a single governed layer so your systems, analysts, and AI agents work from the same clean signal.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./outerbox.png" alt="Competitor analytics" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">Real-Time Competitor Analytics via Splash and Docker</div>
+                        <p>Web scraping project generating SEO Report</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./mahindra.png" alt="Mahindra SmartOps" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">Automation Solution and Admin panel for Mahindra Pvt. Ltd.</div>
+                        <p>Mahindra SmartOps: AI-Driven Sensor Visualization &amp; Alert System</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./madhav" alt="automation" width="150" height="150" loading="lazy" decoding="async">
+                        <div class="text">Madhav Group Project- Ludhiana</div>
+                        <p>Ongoing camera-based inspection system that utilizes YOLO-based segmentation and homography to precisely verify CNC-machined flange dimensions against AutoCAD tolerances, eliminating manual quality checks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- lectures section start -->
+    <section class="lectures" id="lectures">
+        <div class="max-width">
+            <h2 class="title">Lectures &amp; Workshops</h2>
+            <p class="lect-intro">Sharing knowledge through guest lectures and workshops organized at universities.</p>
+            <div class="lect-grid">
+                <div class="lect-card">
+                    <img src="./cu.jfif" alt="Guest lecture at Chandigarh University" width="400" height="240" loading="lazy" decoding="async">
+                    <div class="lect-text">
+                        <h3>Guest Lecture at CU</h3>
+                        <p>Delivering a technical session to university students.</p>
+                    </div>
+                </div>
+                <div class="lect-card">
+                    <img src="./gna.jfif" alt="Workshop at GNA University" width="400" height="240" loading="lazy" decoding="async">
+                    <div class="lect-text">
+                        <h3>Workshop at Chitkara</h3>
+                        <p>Hands-on workshop on AI and web development.</p>
+                    </div>
+                </div>
+                <div class="lect-card">
+                    <img src="./lecture%20gna.png" alt="Lecture at GNA University" width="400" height="240" loading="lazy" decoding="async">
+                    <div class="lect-text">
+                        <h3>Lecture Session at GNA University</h3>
+                        <p>Interactive lecture with students and faculty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>If you are interested in working together? Please fill out the form aside with some info about your project and I will get back to you as soon as I can. I will respond in as soon as less time.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Maninderpal Singh</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Hoshiarpur, Punjab</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">maninderpalsingh9501@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <img src="./Whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async">
+                    <div class="button-area">
+                        <button onclick="window.location.href='https://wa.link/5efzz5';" type="button">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <div class="waves" aria-hidden="true">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <h2><span class="typing-3"></span></h2>
+        <ul id="media">
+            <li style="--clr:#0011ff;">
+                <a href="https://github.com/Maninderpalsingh9501" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li style="--clr:#e73f0c;">
+                <a href="mailto:maninderpalsingh9501@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li style="--clr:#e73f0c;">
+                <a href="https://www.linkedin.com/in/maninderpal-singh-9501a91a0/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li style="--clr:#04c214;">
+                <a href="https://wa.link/5efzz5" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+        </ul>
+        <p>&copy; 2021 <a href="#">Hem</a> | All Rights Reserved |</p>
+    </footer>
+
+</body>
+</html>

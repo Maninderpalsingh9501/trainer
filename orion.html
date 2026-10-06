@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio: Web developer (HTML,CSS and Js)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>
+
+    .column.right img {
+  max-width: 100%;       /* Prevents image from overflowing */
+  height: auto;
+  display: block;
+  border-radius: 10px;   /* Optional: rounded corners */
+  object-fit: contain;   /* Keeps image inside container */
+}
+</style>
+    <!-- pre loader  -->
+ <div id="preloader"></div>
+ 
+
+   
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Crypto Stacking Platform- Orion</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Orion Protocol</div>
+                    <p>
+                        <i>Tech Stack: Python-Django, Docker, GraphQL, LLM-ChatBot, Post GRE </i><br><br>
+Worked on the backend development of the website tradebit.io, focusing on
+server-side logic and database management.<br><br>
+Built a crypto-trading chatbot by embedding and indexing our domain-specific
+guides in a vector database, retrieving the most relevant chunks at query time,
+and prompting Bloom to generate context-aware answers served via a FastAPI
+endpoint.<br><br>
+Designed Whole Database alone inlcuding proper records of Payments, Crypto
+stacking and Leveling commission Structure
+                    </p>
+                    <a href="https://orion.xyz/">Watch</a>
+                </div>
+                <div class="column right">
+                   <img src="./orion.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <!-- scroll bar js  -->
+    <script type="text/javascript">
+        var preogressbar = document .getElementById("preogressbar")
+        var percent = document .getElementById("percent")
+       
+        var totalHeight = document .body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            var progress =( window.pageYOffset / totalHeight) * 100;
+            preogressbar.style.height = progress + "%";
+            percent.innerHTML = "Page Scrolled " + Math.round(progress)+ "%"
+        }
+    </script>
+<!-- pre loader js  -->
+  <script>
+      var loader = document .getElementById("preloader");
+
+      window.addEventListener("load", function(){
+         loader.style.display = "none";
+      })
+  </script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
