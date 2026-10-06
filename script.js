@@ -43,7 +43,7 @@
     });
 
     /* ---------- typing animation: start only when the element is on screen ---------- */
-    var roles = ["Software Developer", "4+ Experienced", "AI Expert", "LLM Tuning and Deployment Expert", "Freelancer"];
+    var roles = ["Software Developer", "6+ Experienced", "AI Expert", "LLM Tuning and Deployment Expert", "Freelancer"];
     var typedConfigs = {
         '.typing':   roles,
         '.typing-2': roles,
